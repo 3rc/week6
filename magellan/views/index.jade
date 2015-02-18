@@ -1,0 +1,15 @@
+extends layout
+
+block head-scripts
+	link(href='main.css', rel='stylesheet')
+
+block content
+	.map-container
+		.map
+			img(src='img/worldmap.jpg')
+		h1 Magellan's Voyage
+		.begincontainer
+			.begin
+				a(href='/voyage#seville') 
+					img(src='img/ship2.gif')
+					p Start the voyage!

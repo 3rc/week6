@@ -1,4 +1,3 @@
-var fs = ('fs');
 
 var colorutil = require('./colorutil.js');
 

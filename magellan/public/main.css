@@ -1,0 +1,64 @@
+body *{
+	font-family: verdana;
+}
+
+.map {
+	z-index: -1;
+	width: 1200px;
+	position: fixed;
+}
+
+.map img {
+	width: 1200px;
+}
+.map-container {
+	width: 1200px;
+	position: absolute;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.begincontainer {
+	position: relative;
+}
+.begin {
+	text-align: center;
+	position: relative;
+	top: 500px	;
+}
+
+.location *, .next *{
+	display: block;
+}
+
+.location p {
+	margin-top: -40px;
+	margin-left: 60px;
+}
+.location img {
+	width: 60px;
+}
+
+.seville {
+	position: relative;
+	top: 240px;
+	left: 520px;
+}
+
+.next img {
+	width: 100px;
+}
+
+.next {
+	text-align: right;
+	top: 500px;
+	right: 200px;
+}

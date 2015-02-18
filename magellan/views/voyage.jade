@@ -1,0 +1,18 @@
+extends layout
+
+block head-scripts
+	link(href='/main.css', rel='stylesheet')
+
+block content
+	.map-container
+		.map
+			img(src='/img/worldmap.jpg')
+		h1 The Voyage in Progress
+		.location
+			.seville
+				img(src='/img/x.png')
+				p #{currentLocation}
+
+		.next
+			p NEXT
+			img(src='/img/nextarrow.png')
