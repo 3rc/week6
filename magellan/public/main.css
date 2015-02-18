@@ -39,7 +39,11 @@ a {
 	display: block;
 }
 
-.location p {
+.location {
+	position: absolute;
+}
+
+.location label, .location p {
 	margin-top: -40px;
 	margin-left: 60px;
 }
@@ -47,15 +51,19 @@ a {
 	width: 60px;
 }
 
-.seville {
-	position: relative;
-	top: 240px;
-	left: 520px;
+.next * {
+	width: 100px;
+	text-align: right;
+	position: absolute;
+	top: 690px;
+	left: 990px;
 }
 
-.next img {
-	width: 100px;
+.next p {
+	top: 715px;
+	left: 955px;
 }
+
 
 .next {
 	text-align: right;

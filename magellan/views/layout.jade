@@ -3,8 +3,14 @@ html(lang='en')
 	head
 		meta(charset="utf-8")
 		title Magellan's Voyage
-		block head-scripts
+		link(href='/main.css', rel='stylesheet')
 
 	body
-		block content
+		.map-container
+			.map
+				img(src='/img/worldmap.jpg')
+			h1 Magellan's Voyage
+			block content
+
+
 		
